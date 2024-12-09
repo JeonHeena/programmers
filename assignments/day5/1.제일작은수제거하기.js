@@ -17,3 +17,5 @@ function solution(arr) {
   }
   return result;
 }
+
+console.log(solution(arr));
