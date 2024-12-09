@@ -17,3 +17,8 @@ function solution(arr) {
   }
   return result;
 }
+
+function solution2(arr) {
+  arr.splice(arr.indexOf(Math.min(...arr)), 1);
+  if (arr.length < 1) return [-1];
+}
